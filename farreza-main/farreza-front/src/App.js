@@ -79,8 +79,8 @@ function App() {
   const [categoryFilter, setCategoryFilter] = useState("");
 
   // API du backend
- apiUrl = "https://farreza.com:5000";
- //const apiUrl = "http://127.0.0.1:4000";
+ //apiUrl = "https://farreza.com:5000";
+ const apiUrl = "http://127.0.0.1:4000";
 
   const setUser = (tokenToSet) => {
     if (tokenToSet) {
