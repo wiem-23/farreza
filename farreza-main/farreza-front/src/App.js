@@ -80,7 +80,7 @@ function App() {
 
   // API du backend
  //apiUrl = "https://farreza.com:5000";
- const apiUrl = "http://127.0.0.1:4000";
+ const apiUrl = "http://51.77.213.213:4000";
 
   const setUser = (tokenToSet) => {
     if (tokenToSet) {
