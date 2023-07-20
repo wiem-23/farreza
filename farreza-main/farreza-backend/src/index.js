@@ -115,15 +115,15 @@ app.all("*", (req, res) => {
 /*
  * Start server
 */
-app.listen(4000, () => {
-  console.log(`Server launched on :${4000}`);
+app.listen(5000, () => {
+  console.log(`Server launched on :${5000}`);
 });
-/* const https = require('https');
-const fs = require('fs');
+//  const https = require('https');
+// const fs = require('fs');
 
-const options = {
-  key: fs.readFileSync('/etc/letsencrypt/live/farreza.com/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/farreza.com/fullchain.pem')
-}; 
+// const options = {
+//   key: fs.readFileSync('/etc/letsencrypt/live/farreza.com/privkey.pem'),
+//   cert: fs.readFileSync('/etc/letsencrypt/live/farreza.com/fullchain.pem')
+// }; 
 
-https.createServer(options, app).listen(5000); */
+// https.createServer(options, app).listen(5000); 
